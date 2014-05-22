@@ -6,6 +6,8 @@ public class BinarySearch {
 		int[] array = {5,12,17,23,38,40,44,85,90};
 		BinarySearch bs = new BinarySearch();
 		System.out.println(bs.binarySearch(9, array, 0, array.length));
+		//test
+		int a = 5;
 	}
 	
 	public int binarySearch(int value, int[] array, int start, int end){
